@@ -1,0 +1,43 @@
+1598111053853	geckodriver	INFO	Listening on 127.0.0.1:62263
+1598111057098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "-foreground" "-no-remote" "-profile" "C:\\Users\\Denisa\\AppData\\Local\\Temp\\rust_mozprofile03PQMW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598111061434	Marionette	INFO	Listening on port 62274
+1598111061864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598111065199	Marionette	INFO	Stopped listening on port 62274
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598111066627	geckodriver	INFO	Listening on 127.0.0.1:62312
+1598111069864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "-foreground" "-no-remote" "-profile" "C:\\Users\\Denisa\\AppData\\Local\\Temp\\rust_mozprofile652R5y"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598111072555	Marionette	INFO	Listening on port 62322
+1598111072990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598111081208	Marionette	INFO	Stopped listening on port 62322
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
