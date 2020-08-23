@@ -28,3 +28,112 @@
 08/22/2020 08:44:44 PM: INFO: **********Verify login test**********
 08/22/2020 08:45:54 PM: INFO: **********Home page title is passed **********
 08/22/2020 08:46:08 PM: INFO: **********Login test is passed **********
+08/23/2020 04:07:05 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 04:07:05 PM: INFO: **********Verify login DTT test**********
+08/23/2020 04:14:39 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 04:14:39 PM: INFO: **********Verify login DTT test**********
+08/23/2020 04:22:32 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 04:22:32 PM: INFO: **********Verify login DTT test**********
+08/23/2020 04:22:45 PM: INFO: ****** Passed *****
+08/23/2020 04:22:51 PM: INFO: **** Passed*****
+08/23/2020 04:22:57 PM: INFO: **** Passed*****
+08/23/2020 04:23:03 PM: INFO: **** Passed*****
+08/23/2020 04:33:50 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 04:33:50 PM: INFO: **********Verify login DTT test**********
+08/23/2020 04:34:05 PM: INFO: ****** Passed *****
+08/23/2020 04:34:13 PM: INFO: **** Passed*****
+08/23/2020 04:34:19 PM: INFO: **** Passed*****
+08/23/2020 04:34:24 PM: INFO: **** Passed*****
+08/23/2020 05:32:56 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 05:32:56 PM: INFO: **********Verify login DTT test**********
+08/23/2020 05:33:10 PM: INFO: ****** Passed *****
+08/23/2020 05:33:17 PM: INFO: **** Passed*****
+08/23/2020 05:33:23 PM: INFO: **** Passed*****
+08/23/2020 05:33:29 PM: INFO: **** Passed*****
+08/23/2020 05:38:29 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 05:38:29 PM: INFO: **********Verify login DTT test**********
+08/23/2020 05:38:42 PM: INFO: ****** Passed *****
+08/23/2020 05:38:47 PM: INFO: **** Passed*****
+08/23/2020 05:38:51 PM: INFO: **** Passed*****
+08/23/2020 05:38:55 PM: INFO: **** Passed*****
+08/23/2020 05:55:21 PM: INFO: ********* Test_002_DTT_Login
+08/23/2020 05:55:21 PM: INFO: **********Verify login DTT test**********
+08/23/2020 05:55:34 PM: INFO: ****** Passed *****
+08/23/2020 05:55:39 PM: INFO: **** Passed*****
+08/23/2020 05:55:43 PM: INFO: **** Passed*****
+08/23/2020 05:55:46 PM: INFO: **** Passed*****
+08/23/2020 06:01:50 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:01:50 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:02:06 PM: INFO: **** passed ****
+08/23/2020 06:02:12 PM: INFO: **** passed ****
+08/23/2020 06:02:18 PM: INFO: **** passed ****
+08/23/2020 06:02:25 PM: INFO: **** passed ****
+08/23/2020 06:10:08 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:10:08 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:10:22 PM: INFO: **** passed ****
+08/23/2020 06:10:29 PM: INFO: **** passed ****
+08/23/2020 06:10:35 PM: INFO: **** passed ****
+08/23/2020 06:10:41 PM: INFO: **** passed ****
+08/23/2020 06:18:57 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:18:57 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:19:12 PM: INFO: **** passed ****
+08/23/2020 06:19:20 PM: INFO: **** passed ****
+08/23/2020 06:19:25 PM: INFO: **** passed ****
+08/23/2020 06:19:31 PM: INFO: **** passed ****
+08/23/2020 06:32:23 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:32:23 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:32:38 PM: INFO: **** passed ****
+08/23/2020 06:32:44 PM: INFO: **** passed ****
+08/23/2020 06:32:50 PM: INFO: **** passed ****
+08/23/2020 06:32:56 PM: INFO: **** passed ****
+08/23/2020 06:48:27 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:48:27 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:48:42 PM: INFO: **** passed ****
+08/23/2020 06:48:49 PM: INFO: **** passed ****
+08/23/2020 06:48:55 PM: INFO: **** passed ****
+08/23/2020 06:49:00 PM: INFO: **** passed ****
+08/23/2020 06:49:00 PM: WARNING: object of type 'NoneType' has no len(), retrying in 0 seconds...
+08/23/2020 06:49:00 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:49:00 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:49:09 PM: INFO: **** passed ****
+08/23/2020 06:49:15 PM: INFO: **** passed ****
+08/23/2020 06:49:21 PM: INFO: **** passed ****
+08/23/2020 06:49:27 PM: INFO: **** passed ****
+08/23/2020 06:49:27 PM: WARNING: object of type 'NoneType' has no len(), retrying in 0 seconds...
+08/23/2020 06:49:27 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:49:27 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 06:49:35 PM: INFO: **** passed ****
+08/23/2020 06:49:42 PM: INFO: **** passed ****
+08/23/2020 06:49:47 PM: INFO: **** passed ****
+08/23/2020 06:49:53 PM: INFO: **** passed ****
+08/23/2020 06:55:31 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 06:55:31 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 07:13:00 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 07:13:00 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 07:13:14 PM: INFO: **** passed ****
+08/23/2020 07:13:21 PM: INFO: **** passed ****
+08/23/2020 07:13:27 PM: INFO: **** passed ****
+08/23/2020 07:13:32 PM: INFO: **** passed ****
+08/23/2020 07:14:32 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 07:14:32 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 07:14:45 PM: INFO: **** passed ****
+08/23/2020 07:14:46 PM: INFO: ******* DDT Login test passed **********
+08/23/2020 07:21:52 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 07:21:52 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 07:22:06 PM: INFO: **** passed ****
+08/23/2020 07:22:14 PM: INFO: **** passed ****
+08/23/2020 07:22:19 PM: INFO: **** passed ****
+08/23/2020 07:22:25 PM: INFO: **** passed ****
+08/23/2020 07:28:09 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 07:28:09 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 07:28:23 PM: INFO: **** passed ****
+08/23/2020 07:28:30 PM: INFO: **** passed ****
+08/23/2020 07:42:45 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+08/23/2020 07:42:45 PM: INFO: ******* Starting Login DDT Test **********
+08/23/2020 07:43:01 PM: INFO: **** passed ****
+08/23/2020 07:43:08 PM: INFO: **** passed ****
+08/23/2020 07:43:14 PM: INFO: **** passed ****
+08/23/2020 07:43:20 PM: INFO: **** passed ****
+08/23/2020 07:43:20 PM: INFO: ******* DDT Login test passed **********
+08/23/2020 07:43:20 PM: INFO: ******* End of Login DDT Test **********
+08/23/2020 07:43:20 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
