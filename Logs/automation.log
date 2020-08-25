@@ -137,3 +137,21 @@
 08/23/2020 07:43:20 PM: INFO: ******* DDT Login test passed **********
 08/23/2020 07:43:20 PM: INFO: ******* End of Login DDT Test **********
 08/23/2020 07:43:20 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+08/24/2020 03:08:08 PM: INFO: ***** Test_003_AddCustomer****
+08/24/2020 03:08:18 PM: INFO: *** Login succesful ****
+08/24/2020 03:08:18 PM: INFO: **** Starting Add Customer Test***
+08/24/2020 03:08:21 PM: INFO: *** Providing customer info ***
+08/24/2020 03:29:36 PM: INFO: ***** Test_003_AddCustomer****
+08/24/2020 03:29:46 PM: INFO: *** Login succesful ****
+08/24/2020 03:29:46 PM: INFO: **** Starting Add Customer Test***
+08/24/2020 03:29:49 PM: INFO: *** Providing customer info ***
+08/24/2020 03:33:35 PM: INFO: ***** Test_003_AddCustomer****
+08/24/2020 03:33:48 PM: INFO: *** Login succesful ****
+08/24/2020 03:33:48 PM: INFO: **** Starting Add Customer Test***
+08/24/2020 08:07:51 PM: INFO: ***** Test_003_AddCustomer****
+08/24/2020 08:08:01 PM: INFO: *** Login succesful ****
+08/24/2020 08:08:01 PM: INFO: **** Starting Add Customer Test***
+08/24/2020 11:07:56 PM: INFO: ***** Test_003_AddCustomer****
+08/24/2020 11:08:06 PM: INFO: *** Login succesful ****
+08/24/2020 11:08:06 PM: INFO: **** Starting Add Customer Test***
+08/24/2020 11:08:09 PM: INFO: *** Providing customer info ***

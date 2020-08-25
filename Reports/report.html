@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 23-Aug-2020 at 19:43:20 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 24-Aug-2020 at 23:08:11 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +265,8 @@ function filter_table(elem) {
         <td>Tester</td>
         <td>Denisa</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 38.90 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 19.08 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,20 +277,15 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_login_ddt.py::Test_002_DDT_Login::test_login_ddt</td>
-          <td class="col-duration">34.41</td>
+          <td class="col-result">Failed</td>
+          <td class="col-name">testCases/test_addCustomer.py::Test_003_AddCustomer::test_addCustomer</td>
+          <td class="col-duration">14.86</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_login_ddt.py:14 ******* Starting Test_002_DDT_Login Test **********
-[32mINFO    [0m root:test_login_ddt.py:15 ******* Starting Login DDT Test **********
-[32mINFO    [0m root:test_login_ddt.py:39 **** passed ****
-[32mINFO    [0m root:test_login_ddt.py:52 **** passed ****
-[32mINFO    [0m root:test_login_ddt.py:52 **** passed ****
-[32mINFO    [0m root:test_login_ddt.py:52 **** passed ****
-[32mINFO    [0m root:test_login_ddt.py:56 ******* DDT Login test passed **********
-[32mINFO    [0m root:test_login_ddt.py:64 ******* End of Login DDT Test **********
-[32mINFO    [0m root:test_login_ddt.py:65 **************** Completed  TC_LoginDDT_002 *************<br/></div></td></tr></tbody></table></body></html>
+            <div class="log">self = &lt;testCases.test_addCustomer.Test_003_AddCustomer object at 0x048D76D0&gt;, setUp = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;779505eec15ff784a2797309f7cc120a&quot;)&gt;<br/><br/>    def test_addCustomer(self, setUp):<br/>        self.logger.info(&quot;***** Test_003_AddCustomer****&quot;)<br/>        self.driver = setUp<br/>        self.driver.get(self.baseURL)<br/>        self.driver.maximize_window()<br/>    <br/>        self.lp = LoginPage<br/>    <br/>        self.lp = LoginPage(self.driver)<br/>        self.lp.setUserName(self.username)<br/>        self.lp.setPassword(self.password)<br/>        self.lp.clickLogin()<br/>        self.logger.info(&quot;*** Login succesful ****&quot;)<br/>    <br/>        self.logger.info(&quot;**** Starting Add Customer Test***&quot;)<br/>    <br/>        self.addcust = AddCustomer(self.driver)<br/>        self.addcust.clickOnCustomersMenu()<br/>        self.addcust.clickOnCustomersMenuItem()<br/>    <br/>        self.addcust.clickOnAddnew()<br/>    <br/>    <br/>    <br/>        self.logger.info(&quot;*** Providing customer info ***&quot;)<br/>    <br/>        self.email = random_generator() + &quot;@gmail.com&quot;<br/>        time.sleep(2)<br/>        self.addcust.setEmail(self.email)<br/>&gt;       self.addcust.setCustomerPassword(self.customerPassword)<br/><br/>testCases\test_addCustomer.py:58: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>pageObjects\AddCustomerPage.py:48: in setCustomerPassword<br/>    self.driver.find_element_by_xpath(self.txtPassword_xpath).send_keys(password)<br/>..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py:478: in send_keys<br/>    {&#x27;text&#x27;: &quot;&quot;.join(keys_to_typing(value)),<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>value = (None,)<br/><br/>    def keys_to_typing(value):<br/>        &quot;&quot;&quot;Processes the values that will be typed in the element.&quot;&quot;&quot;<br/>        typing = []<br/>        for val in value:<br/>            if isinstance(val, Keys):<br/>                typing.append(val)<br/>            elif isinstance(val, int):<br/>                val = str(val)<br/>                for i in range(len(val)):<br/>                    typing.append(val[i])<br/>            else:<br/>&gt;               for i in range(len(val)):<br/><span class="error">E               TypeError: object of type &#x27;NoneType&#x27; has no len()</span><br/><br/>..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\common\utils.py:150: TypeError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_addCustomer.py:30 ***** Test_003_AddCustomer****
+[32mINFO    [0m root:test_addCustomer.py:41 *** Login succesful ****
+[32mINFO    [0m root:test_addCustomer.py:43 **** Starting Add Customer Test***
+[32mINFO    [0m root:test_addCustomer.py:53 *** Providing customer info ***<br/></div></td></tr></tbody></table></body></html>
