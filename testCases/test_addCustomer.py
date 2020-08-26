@@ -72,9 +72,9 @@ class Test_003_AddCustomer:
 
         self.msg = self.driver.find_element_by_tag_name("body").text
 
-        print(self.msg)
 
-        if 'customer has been added successfuly.' in self.msg:
+
+        if 'The new customer has been added successfully.' in self.msg:
             assert True == True
             self.logger.info("***** Add customer Test Passed ****")
 

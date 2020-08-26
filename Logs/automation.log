@@ -155,3 +155,53 @@
 08/24/2020 11:08:06 PM: INFO: *** Login succesful ****
 08/24/2020 11:08:06 PM: INFO: **** Starting Add Customer Test***
 08/24/2020 11:08:09 PM: INFO: *** Providing customer info ***
+08/25/2020 01:12:16 PM: INFO: ***** Test_003_AddCustomer****
+08/25/2020 01:12:25 PM: INFO: *** Login succesful ****
+08/25/2020 01:12:25 PM: INFO: **** Starting Add Customer Test***
+08/25/2020 01:12:28 PM: INFO: *** Providing customer info ***
+08/26/2020 01:20:29 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 01:20:39 PM: INFO: *** Login succesful ****
+08/26/2020 01:20:39 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 01:20:43 PM: INFO: *** Providing customer info ***
+08/26/2020 02:54:12 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 02:54:22 PM: INFO: *** Login succesful ****
+08/26/2020 02:54:22 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 02:54:26 PM: INFO: *** Providing customer info ***
+08/26/2020 08:44:52 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 08:45:02 PM: INFO: *** Login succesful ****
+08/26/2020 08:45:02 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 08:45:06 PM: INFO: *** Providing customer info ***
+08/26/2020 08:46:06 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 08:46:17 PM: INFO: *** Login succesful ****
+08/26/2020 08:46:17 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 08:46:21 PM: INFO: *** Providing customer info ***
+08/26/2020 08:46:35 PM: INFO: **** Saving customer info *****
+08/26/2020 08:46:35 PM: INFO: *** Add customer validation started ****
+08/26/2020 08:46:36 PM: ERROR: *** Add customer Test Failed ***
+08/26/2020 08:58:15 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 08:58:25 PM: INFO: *** Login succesful ****
+08/26/2020 08:58:25 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 08:58:29 PM: INFO: *** Providing customer info ***
+08/26/2020 08:58:43 PM: INFO: **** Saving customer info *****
+08/26/2020 08:58:43 PM: INFO: *** Add customer validation started ****
+08/26/2020 08:58:43 PM: INFO: ***** Add customer Test Passed ****
+08/26/2020 08:58:44 PM: INFO:  **** Ending Home Page Title Test ****
+08/26/2020 08:59:25 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 08:59:35 PM: INFO: *** Login succesful ****
+08/26/2020 08:59:35 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 08:59:38 PM: INFO: *** Providing customer info ***
+08/26/2020 08:59:53 PM: INFO: **** Saving customer info *****
+08/26/2020 08:59:53 PM: INFO: *** Add customer validation started ****
+08/26/2020 08:59:53 PM: INFO: ***** Add customer Test Passed ****
+08/26/2020 08:59:57 PM: INFO:  **** Ending Home Page Title Test ****
+08/26/2020 09:16:59 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 09:17:09 PM: INFO: *** Login succesful ****
+08/26/2020 09:17:09 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 09:17:48 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 09:17:58 PM: INFO: *** Login succesful ****
+08/26/2020 09:17:58 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 09:18:04 PM: INFO: *** Providing customer info ***
+08/26/2020 09:18:58 PM: INFO: ***** Test_003_AddCustomer****
+08/26/2020 09:19:05 PM: INFO: *** Login succesful ****
+08/26/2020 09:19:05 PM: INFO: **** Starting Add Customer Test***
+08/26/2020 09:19:08 PM: INFO: *** Providing customer info ***

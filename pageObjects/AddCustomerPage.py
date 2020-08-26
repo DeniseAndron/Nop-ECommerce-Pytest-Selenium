@@ -18,10 +18,12 @@ class AddCustomer:
     txtCompanyName_xpath = "//input[@id='Company']"
 
     drpmgrOfVendor_xpath = "//*[@id='VendorId']"
-    txtcustomerRoles_xpath = "//div[@class='k-multiselect-wrap k-floatwrap']"
+    txtcustomerRoles_xpath = "//div[10]//div[2]//div[1]//div[1]//div[1]']"  #//div[10]//div[2]//div[1]//div[1]//div[1]
     lstitemAdministrators_xpath = "//li[contains(text(),'Administrators')]"
     lstitemRegistered_xpath = "//li[contains(text(),'Registered')]"
+
     lstitemcloseRegistered_xpath = "//li[@class='k-button']//span[@class='k-select']"
+
     lstitemGuests_xpath = "//li[contains(text(),'Guests')]"
     lstitemVendors_xpath = "//li[contains(text(),'Vendors')]"
 
@@ -47,28 +49,6 @@ class AddCustomer:
     def setCustomerPassword(self, password):
         self.driver.find_element_by_xpath(self.txtPassword_xpath).send_keys(password)
 
-    def setCustomerRoles(self, role):
-        self.driver.find_element_by_xpath(self.txtcustomerRoles_xpath).click()
-        time.sleep(3)
-        if role == 'Registered':
-            self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
-        elif role == 'Administrators':
-            self.listitem = self.driver.find_element_by_xpath(self.lstitemAdministrators_xpath)
-        elif role == 'Guests':
-            #Registered and Guests can't be at the same time
-            time.sleep(3)
-            self.driver.find_element_by_xpath(self.lstitemcloseRegistered_xpath).click()
-            self.listitem = self.driver.find_element_by_xpath(self.lstitemGuests_xpath)
-        elif role == 'Registered':
-            self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
-        elif role == 'Vendors':
-            self.listitem = self.driver.find_element_by_xpath(self.lstitemVendors_xpath)
-
-        else:
-            self.listitem = self.driver.find_element_by_xpath(self.lstitemGuests_xpath)
-        time.sleep(3)
-        #self.listitem.click()
-        self.driver.execute_script("arguments[0].click();", self.listitem)
 
     def setManagerOfVendor(self, value):
         drp = Select(self.driver.find_element_by_xpath(self.drpmgrOfVendor_xpath))
@@ -92,6 +72,29 @@ class AddCustomer:
     #date of birth
     def setDob(self, dob):
         self.driver.find_element_by_xpath(self.txtDob_xpath).send_keys(dob)
+
+    def setCustomerRoles(self, role):
+        self.driver.find_element_by_xpath(self.txtcustomerRoles_xpath).click()
+        time.sleep(3)
+        if role == 'Registered':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
+        elif role == 'Administrators':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemAdministrators_xpath)
+        elif role == 'Guests':
+            #Registered and Guests can't be at the same time
+            time.sleep(3)
+            self.driver.find_element_by_xpath(self.lstitemcloseRegistered_xpath).click()
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemGuests_xpath)
+        elif role == 'Registered':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
+        elif role == 'Vendors':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemVendors_xpath)
+
+        else:
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemGuests_xpath)
+        time.sleep(3)
+        #self.listitem.click()
+        self.driver.execute_script("arguments[0].click();", self.listitem)
 
     def setCompanyName(self,compname):
         self.driver.find_element_by_xpath(self.txtCompanyName_xpath).send_keys(compname)
