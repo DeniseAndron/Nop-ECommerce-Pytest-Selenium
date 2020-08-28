@@ -69,3 +69,8 @@ class ReadConfig:
     def getAdminContent():
         adminContent = config.get('customer info', 'adminContent')
         return adminContent
+
+    @staticmethod
+    def getSearchEmail():
+        custEmail = config.get('search by email', 'custemail')
+        return custEmail
