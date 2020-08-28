@@ -205,3 +205,17 @@
 08/26/2020 09:19:05 PM: INFO: *** Login succesful ****
 08/26/2020 09:19:05 PM: INFO: **** Starting Add Customer Test***
 08/26/2020 09:19:08 PM: INFO: *** Providing customer info ***
+08/28/2020 01:12:18 PM: INFO: ***** SearchCustomerByEmail_004 ******
+08/28/2020 01:12:27 PM: INFO: *** Login Successful ***
+08/28/2020 01:12:27 PM: INFO:  *** Starting Search Customer by Email ***
+08/28/2020 01:12:29 PM: INFO: *** searching customer by Email
+08/28/2020 01:16:56 PM: INFO: ***** SearchCustomerByEmail_004 ******
+08/28/2020 01:17:07 PM: INFO: *** Login Successful ***
+08/28/2020 01:17:07 PM: INFO:  *** Starting Search Customer by Email ***
+08/28/2020 01:17:08 PM: INFO: *** searching customer by Email
+08/28/2020 01:17:12 PM: INFO:  ***** TC_SearchCustomerByEmail_004 Finished ****
+08/28/2020 01:32:11 PM: INFO: ***** SearchCustomerByName_005 ******
+08/28/2020 01:32:22 PM: INFO: *** Login Successful ***
+08/28/2020 01:32:22 PM: INFO:  *** Starting Search Customer by Name ***
+08/28/2020 01:32:26 PM: INFO: *** searching customer by Name
+08/28/2020 01:32:30 PM: INFO:  ***** TC_SearchCustomerByName_005 Finished ****

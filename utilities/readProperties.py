@@ -74,3 +74,18 @@ class ReadConfig:
     def getSearchEmail():
         custEmail = config.get('search by email', 'custemail')
         return custEmail
+
+    @staticmethod
+    def getSearchFirstName():
+        custName = config.get('search by name', 'custfirstname')
+        return custName
+
+    @staticmethod
+    def getSearchLastName():
+        custName = config.get('search by name', 'custlastname')
+        return custName
+
+    @staticmethod
+    def getSearchFullName():
+        custName = config.get('search by name', 'custFullName')
+        return custName

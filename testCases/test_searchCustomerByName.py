@@ -7,16 +7,18 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
 
-class Test_SearchCustomerByEmail_004:
+class Test_SearchCustomerByName_005:
     baseUrl = ReadConfig.getApplicationURL()
     username = ReadConfig.getUsername()
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()  #Logger
 
-    customerEmail = ReadConfig.getSearchEmail()
+    customerFirstName = ReadConfig.getSearchFirstName()
+    customerLastName = ReadConfig.getSearchLastName()
+    customerFullName = ReadConfig.getSearchFullName()
 
     def test_searchCustomerByEmail(self, setUp):
-        self.logger.info("***** SearchCustomerByEmail_004 ******")
+        self.logger.info("***** SearchCustomerByName_005 ******")
         self.driver = setUp
         self.driver.get(self.baseUrl)
         self.driver.maximize_window()
@@ -27,19 +29,20 @@ class Test_SearchCustomerByEmail_004:
         self.lp.clickLogin()
         self.logger.info("*** Login Successful ***")
 
-        self.logger.info(" *** Starting Search Customer by Email ***")
+        self.logger.info(" *** Starting Search Customer by Name ***")
 
         self.addcust = AddCustomer(self.driver)
         self.addcust.clickOnCustomersMenu()
         self.addcust.clickOnCustomersMenuItem()
 
-        self.logger.info("*** searching customer by Email")
+        self.logger.info("*** searching customer by Name")
         searchCust = SearchCustomer(self.driver)
-        searchCust.setEmail(self.customerEmail)
+        searchCust.setFirstName(self.customerFirstName)
+        searchCust.setLastName(self.customerLastName)
         searchCust.clickSearch()
         time.sleep(3)
-        status = searchCust.searchCustomerByEmail(self.customerEmail)
+        status = searchCust.searchCustomerByName(self.customerFullName)
         assert True == status
-        self.logger.info(" ***** TC_SearchCustomerByEmail_004 Finished ****")
+        self.logger.info(" ***** TC_SearchCustomerByName_005 Finished ****")
 
         self.driver.close()
