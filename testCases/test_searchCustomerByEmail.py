@@ -15,6 +15,7 @@ class Test_SearchCustomerByEmail_004:
 
     customerEmail = ReadConfig.getSearchEmail()
 
+    @pytest.mark.regression
     def test_searchCustomerByEmail(self, setUp):
         self.logger.info("***** SearchCustomerByEmail_004 ******")
         self.driver = setUp

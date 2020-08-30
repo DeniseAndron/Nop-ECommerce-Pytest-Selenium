@@ -17,6 +17,8 @@ class Test_SearchCustomerByName_005:
     customerLastName = ReadConfig.getSearchLastName()
     customerFullName = ReadConfig.getSearchFullName()
 
+
+    @pytest.mark.regression
     def test_searchCustomerByEmail(self, setUp):
         self.logger.info("***** SearchCustomerByName_005 ******")
         self.driver = setUp

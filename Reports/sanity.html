@@ -242,8 +242,8 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <h1>reports.html</h1>
-    <p>Report generated on 28-Aug-2020 at 13:32:30 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <h1>sanity.html</h1>
+    <p>Report generated on 29-Aug-2020 at 22:45:44 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +265,8 @@ function filter_table(elem) {
         <td>Tester</td>
         <td>Denisa</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 23.53 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 54.81 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -280,13 +280,26 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testCases/test_searchCustomerByName.py::Test_SearchCustomerByName_005::test_searchCustomerByEmail</td>
-          <td class="col-duration">19.29</td>
+          <td class="col-name">test_addCustomer.py::Test_003_AddCustomer::test_addCustomer</td>
+          <td class="col-duration">33.37</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_searchCustomerByName.py:21 ***** SearchCustomerByName_005 ******
-[32mINFO    [0m root:test_searchCustomerByName.py:30 *** Login Successful ***
-[32mINFO    [0m root:test_searchCustomerByName.py:32  *** Starting Search Customer by Name ***
-[32mINFO    [0m root:test_searchCustomerByName.py:38 *** searching customer by Name
-[32mINFO    [0m root:test_searchCustomerByName.py:46  ***** TC_SearchCustomerByName_005 Finished ****<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_addCustomer.py:31 ***** Test_003_AddCustomer****
+[32mINFO    [0m root:test_addCustomer.py:42 *** Login succesful ****
+[32mINFO    [0m root:test_addCustomer.py:44 **** Starting Add Customer Test***
+[32mINFO    [0m root:test_addCustomer.py:54 *** Providing customer info ***
+[32mINFO    [0m root:test_addCustomer.py:70 **** Saving customer info *****
+[32mINFO    [0m root:test_addCustomer.py:72 *** Add customer validation started ****
+[32mINFO    [0m root:test_addCustomer.py:80 ***** Add customer Test Passed ****
+[32mINFO    [0m root:test_addCustomer.py:88  **** Ending Home Page Title Test ****<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_login.py::Test_001_Login::test_login</td>
+          <td class="col-duration">11.44</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_login.py:38 **********Verify login test**********
+[32mINFO    [0m root:test_login.py:51 **********Login test is passed **********<br/></div></td></tr></tbody></table></body></html>
