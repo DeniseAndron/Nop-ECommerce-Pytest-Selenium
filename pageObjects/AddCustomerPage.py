@@ -18,7 +18,7 @@ class AddCustomer:
     txtCompanyName_xpath = "//input[@id='Company']"
 
     drpmgrOfVendor_xpath = "//*[@id='VendorId']"
-    txtcustomerRoles_xpath = "//div[10]//div[2]//div[1]//div[1]//div[1]"  #//div[10]//div[2]//div[1]//div[1]//div[1]
+    txtcustomerRoles_xpath = "//div[@class='panel-body']//div[@class='form-group'][10]/div[@class='col-md-9']/div"  #//div[10]//div[2]//div[1]//div[1]//div[1]
     lstitemAdministrators_xpath = "//li[contains(text(),'Administrators')]"
     lstitemRegistered_xpath = "//li[contains(text(),'Registered')]"
 
